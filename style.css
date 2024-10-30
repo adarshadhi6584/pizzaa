@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.out1{
+    border: solid 1px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;  
+    background-color: black;
+}
+#in1,#in2{
+    border: solid 1px;
+    height: 100px;
+}
+#in1{
+    width: 100px;
+}
+#in2{
+    width: 550px;
+}
+ul{
+    list-style-type:none;
+}
+ul li{
+    border: solid 1px;
+    height: 100px;
+    width: 106px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+}
+ul li a{
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: bold;
+    color: whitesmoke;
+}
+ul li a:hover{
+    color: green;
+    font-size: 23PX;
+}
+.out2{
+    border: solid 1px;
+    height: 700px;
+    background-image: url(pizzaa2.jpg);
+    background-repeat: no-repeat;
+    background-size: 1380px 600px;
+}
